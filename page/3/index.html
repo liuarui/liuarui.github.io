@@ -8,7 +8,202 @@
     noSupport: 'The browser does not support'
   },
   hexoVersion: '5.4.0'
-} </script><meta name="generator" content="Hexo 5.4.0"></head><body><canvas class="fireworks"></canvas><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar" data-display="false"><div class="author-info"><div class="author-info__avatar text-center"><img src="/img/avatar.png"></div><div class="author-info__name text-center">liuarui</div><div class="author-info__description text-center">基于hexo搭建的个人博客</div><div class="follow-button"><a target="_blank" rel="noopener" href="https://github.com/liuarui">Follow Me</a></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">Articles</span><span class="pull-right">36</span></a><a class="author-info-articles__tags article-meta" href="/tags"><span class="pull-left">Tags</span><span class="pull-right">30</span></a></div></div></div><nav class="no-bg" id="nav"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">liuarui的博客</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus">   <a class="site-page" href="/">Home</a><a class="site-page" href="/archives">Archives</a><a class="site-page" href="/tags">Tags</a></span><span class="pull-right"></span></div><div id="site-info"><div id="site-title">liuarui的博客</div><div id="site-sub-title">@lm/blog</div></div></nav><div id="content-outer"><div class="layout" id="content-inner"><div class="recent-post-item article-container"><a class="article-title" href="/2021/02/01/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B/">进程与线程</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2021-02-01</time><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/">操作系统</a><span class="article-meta__link">-</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/">计算机基础</a></span><div class="content"><h2 id="进程"><a href="#进程" class="headerlink" title="进程"></a>进程</h2><h4 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h4><p>一个正在执行的程序实例对应一个进程</p>
+} </script><meta name="generator" content="Hexo 5.4.0"></head><body><canvas class="fireworks"></canvas><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar" data-display="false"><div class="author-info"><div class="author-info__avatar text-center"><img src="/img/avatar.png"></div><div class="author-info__name text-center">liuarui</div><div class="author-info__description text-center">基于hexo搭建的个人博客</div><div class="follow-button"><a target="_blank" rel="noopener" href="https://github.com/liuarui">Follow Me</a></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">Articles</span><span class="pull-right">39</span></a><a class="author-info-articles__tags article-meta" href="/tags"><span class="pull-left">Tags</span><span class="pull-right">35</span></a></div></div></div><nav class="no-bg" id="nav"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">liuarui的博客</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus">   <a class="site-page" href="/">Home</a><a class="site-page" href="/archives">Archives</a><a class="site-page" href="/tags">Tags</a></span><span class="pull-right"></span></div><div id="site-info"><div id="site-title">liuarui的博客</div><div id="site-sub-title">@lm/blog</div></div></nav><div id="content-outer"><div class="layout" id="content-inner"><div class="recent-post-item article-container"><a class="article-title" href="/2021/04/21/HTML/%E6%A0%87%E7%AD%BE/">HTML标签相关</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2021-04-21</time><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/HTML/">HTML</a></span><div class="content"><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span> /&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge&quot;</span> /&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- 重定向 --&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- &lt;meta http-equiv=&quot;refresh&quot; content=&quot;1;url=http://www.baidu.com&quot; /&gt; --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span> /&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;prerender&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://www.tabao.com&quot;</span> /&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span>Document<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;https://www.taobao.com&quot;</span>&gt;</span>去淘宝<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="meta"><a href="#meta" class="headerlink" title="meta"></a>meta</h1><p>属性</p>
+<ul>
+<li><p>  <code>contend</code></p>
+</li>
+<li><p><code>http-equiv</code>[content-type | expires | refresh | set-cookie]</p>
+<ul>
+<li><p>  把 content 属性关联到 HTTP 头部。</p>
+</li>
+<li><p>  http-equiv 属性为名称/值对提供了名称。并指示服务器在发送实际的文档之前先在要传送给浏览器的 MIME 文档头部包含名称/值对。</p>
+</li>
+<li><p>  当服务器向浏览器发送文档时，会先发送许多名称/值对。虽然有些服务器会发送许多这种名称/值对，但是所有服务器都至少要发送一个：content-type:text/html。这将告诉浏览器准备接受一个 HTML 文档。</p>
+</li>
+<li><p>  使用带有 http-equiv 属性的 <meta> 标签时，服务器将把名称/值对添加到发送给浏览器的内容头部。例如，添加：</p>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;charset&quot;</span> <span class="attr">content</span>=<span class="string">&quot;iso-8859-1&quot;</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;expires&quot;</span> <span class="attr">content</span>=<span class="string">&quot;31 Dec 2008&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">这样发送到浏览器的头部就应该包含：</span><br><span class="line">content-type: text/html</span><br><span class="line">charset:iso-8859-1</span><br><span class="line">expires:31 Dec 2008</span><br><span class="line">当然，只有浏览器可以接受这些附加的头部字段，并能以适当的方式使用它们时，这些字段才有意义。</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>name</code><br>  可选值<ul>
+<li>  author</li>
+<li>  description</li>
+<li>  keywords</li>
+<li>  generator</li>
+<li>  revised</li>
+<li>  others</li>
+</ul>
+</li>
+<li><code>scheme</code><br>  定义用于翻译 content 属性值的格式。</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;keywords&quot;</span> <span class="attr">contend</span>=<span class="string">&quot;关键词1,关键词2&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="script"><a href="#script" class="headerlink" title="script"></a>script</h1><ul>
+<li><code>async </code><ul>
+<li>  无顺序，谁先加载完成谁先执行</li>
+</ul>
+</li>
+<li><code>defer</code><ul>
+<li>  启动一个新线程去下载，然后在<code>DOMContentLoaded</code>事件执行前执行脚本</li>
+<li>  多个按先后顺序</li>
+</ul>
+</li>
+</ul>
+<h1 id="link"><a href="#link" class="headerlink" title="link"></a>link</h1><ul>
+<li>  <code>prefetch</code></li>
+<li>  <code>prerender</code></li>
+<li>  <code>preload</code></li>
+</ul>
+<h1 id="canvas"><a href="#canvas" class="headerlink" title="canvas"></a>canvas</h1><ul>
+<li>  canvas API</li>
+<li>  webGL API</li>
+</ul>
+<h1 id="svg"><a href="#svg" class="headerlink" title="svg"></a>svg</h1><p><a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/SVG">https://developer.mozilla.org/zh-CN/docs/Web/SVG</a></p>
+</div><hr></div><div class="recent-post-item article-container"><a class="article-title" href="/2021/02/01/%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/Why%20I%20use%20Tape%20Instead%20of%20Mocha%20&amp;%20So%20Should%20You/">Why I use Tape Instead of Mocha &amp; So Should You</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2021-02-01</time><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/">单元测试</a><span class="article-meta__link">-</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/%E7%BF%BB%E8%AF%91/">翻译</a></span><div class="content"><h1 id="Why-I-use-Tape-Instead-of-Mocha-amp-So-Should-You"><a href="#Why-I-use-Tape-Instead-of-Mocha-amp-So-Should-You" class="headerlink" title="Why I use Tape Instead of Mocha &amp; So Should You"></a>Why I use Tape Instead of Mocha &amp; So Should You</h1><h1 id="为什么我要使用-Tape-来替代-Mocha-amp-你也应该这么评估软件质量"><a href="#为什么我要使用-Tape-来替代-Mocha-amp-你也应该这么评估软件质量" class="headerlink" title="为什么我要使用 Tape 来替代 Mocha &amp; 你也应该这么评估软件质量"></a>为什么我要使用 Tape 来替代 Mocha &amp; 你也应该这么评估软件质量</h1><p>作者<a target="_blank" rel="noopener" href="https://medium.com/@_ericelliott?source=post_page-----6aa105d8eaf4--------------------------------">Eric Elliott</a></p>
+<p>写作时间：Jul 13, 2015</p>
+<blockquote>
+<p><em>TL;DR: Mocha is a $150k Porsche Panamera when the best tool for the job is a $30k Tesla Model 3. Don’t waste your resources on testing bells and whistles. Invest them in creating your app, instead.</em> &gt;<em>总结: Mocha 是一个价值 150 刀的保时捷，但是往往我们工作中只需要 30 刀的特斯拉就能带来最好的效益。不要为了使用一个测试软件而去使用测试软件，而是使用他们来驱动你的程序开发。</em><br>UPDATE: I have written a simplified wrapper around Tape to make it even simpler to write great unit tests which provide clear bug reports when they fail. See <a target="_blank" rel="noopener" href="https://medium.com/javascript-scene/rethinking-unit-test-assertions-55f59358253f">“Rethinking Unit Test Assertions”</a> for more details.<br>UPDATE：我对 Tape 进行了简易封装，使它能够更容易的编写出优秀的单元测试，且能够在测试用例未通过时提供清晰的错误报告，有关其更多信息请参考 <a target="_blank" rel="noopener" href="https://medium.com/javascript-scene/rethinking-unit-test-assertions-55f59358253f">“Rethinking Unit Test Assertions”</a></p>
+</blockquote>
+<p>Sometimes popularity is an indication of quality. Other times, popular things are popular for popularity’s sake, and not because they’re better than alternatives.</p>
+<p>一般而言，受欢迎程度反映了事物的质量。但有时，受欢迎的事物只是因为受欢迎而受欢迎，而不是因为它们比非主流的更好。</p>
+<p>On real production projects, I have used Jasmine, Mocha, NodeUnit, Tape, and a bunch of other solutions. I have investigated <em>many other options.</em> For the last few years, I have used and continue to use <a target="_blank" rel="noopener" href="https://github.com/substack/tape">Tape</a> along with Supertest (for API testing) on all of my personal projects and projects that I lead.</p>
+<p>在实际的生产项目中，我曾使用过 Jasmine，Mocha，NodeUnit，Tape 和许多其他解决方案。我研究过各种框架。但是在过去的几年中，我在我所有的个人项目和我主导的项目中都使用并继续使用<a target="_blank" rel="noopener" href="https://github.com/substack/tape">Tape</a>和 Supertest（用于 API 测试）。</p>
+<h2 id="What-are-Unit-tests"><a href="#What-are-Unit-tests" class="headerlink" title="What are Unit tests?"></a>What are Unit tests?</h2><h2 id="什么是单元测试？"><a href="#什么是单元测试？" class="headerlink" title="什么是单元测试？"></a>什么是单元测试？</h2><p>Unit tests exist to test individual units of software functionality. A unit is a module, component, or function. They’re bits of the program that can work independently of the rest of the program. The presence of unit testing implies that the software is designed in a modular fashion. You may hear once in a while that there are ways to make software “more testable.”</p>
+<p>单元测试常见于测试软件功能的各个单元。单元是可以是一个模块，组件或函数。它们是程序的一部分，可以独立于程序的其余部分工作。单元测试的存在意味着该软件是以模块化方式设计的。您可能偶尔会听到有一些使软件“更具可测试性”的方法。</p>
+<p>If you find that it’s hard to write unit tests for your program without mocking lots of other things, that’s a sign that your program is not modular enough. Revealing tight coupling (the opposite of modularity) is one of the many important roles that unit tests play in software creation.</p>
+<p>如果您发现很难在不模拟许多其他事情的情况下为程序编写单元测试，则表明您的程序不够模块化。发现耦合（与模块化相反）是单元测试在软件开发中扮演的许多重要功能之一。</p>
+<p>Every module should have unit tests, and every application should be made up of modules. In other words, if you’re not writing unit tests, you should be.</p>
+<p>每个模块都应该有单元测试，每个应用程序都应该由模块组成。换句话说，如果您不编写单元测试，则更应该这么做。</p>
+<h2 id="What’s-Wrong-with-Mocha-Jasmine-etc…"><a href="#What’s-Wrong-with-Mocha-Jasmine-etc…" class="headerlink" title="What’s Wrong with Mocha, Jasmine, etc…?"></a>What’s Wrong with Mocha, Jasmine, etc…?</h2><h2 id="Mocha，Jasmine-等框架都存在什么问题？"><a href="#Mocha，Jasmine-等框架都存在什么问题？" class="headerlink" title="Mocha，Jasmine 等框架都存在什么问题？"></a>Mocha，Jasmine 等框架都存在什么问题？</h2><ol>
+<li><p><strong>Too much configuration :</strong> Choose an assertion library, chose a reporting library, chose a task runner (Grunt, Gulp, etc…) Then figure out how to translate the documentation examples to the reporting library / task runner you chose. All of this is too much cognitive load. Vs: Choose Tape. Done.</p>
+</li>
+<li><p>**Globals: **Mocha, Jasmine, and several other alternatives pollute the global environment with functions like <code>describe</code>, <code>it</code>, etc… Some assertion libraries extend built-in prototypes. Aside from removing the self-documenting nature of simple module exports, those decisions could potentially conflict with the code you’re trying to test. Vs: Tape’s simple module export.</p>
+</li>
+<li><p><strong>Shared State:</strong> Functions like <em><code>beforeEach</code></em> and <em><code>afterEach</code></em> actively encourage you to do something you <strong>definitely should not do</strong>: Share state between tests. <em>Vs. Tape: No such functions for global state sharing. Instead, call setup and teardown routines from individual tests, and</em> <strong>*contain all state to local test variables.*</strong></p>
+</li>
+<li><p><strong>过多的配置项：</strong>选择一个断言库，选择一个报告库，选择一个任务组织器 (Grunt, Gulp, etc…)，然后还得学习你所选择的报告库和任务组织器的文档示例，学习成本过高。相比之下：选择使用 Tape，完事～</p>
+</li>
+<li><p><strong>全局变量：</strong>Mocha，Jasmine 等等通过<code>describe</code>，<code>it</code>等全局函数污染全局环境。某些断言库扩展了内置原型。除了破坏了模块的纯净性以外，这些操作还可能与您要测试的代码冲突。相比下：Tape 的纯净模块导出。</p>
+</li>
+<li><p><strong>共享状态：</strong>诸如*<code>beforeEach</code><em>和</em><code>afterEach</code>之类的功能*积极地鼓励您做一些您<strong>绝对不应该做的事情</strong>：在测试之间共享状态。相比下： Tape 没有用于全局状态共享的此类功能。取而代之的是，从制定的测试用例中调用挂载和卸载，并将所有状态包含在本地测试变量中。</p>
+</li>
+</ol>
+<h2 id="Why-Tape"><a href="#Why-Tape" class="headerlink" title="Why Tape?"></a>Why Tape?</h2><h2 id="为什么选择-Tape？"><a href="#为什么选择-Tape？" class="headerlink" title="为什么选择 Tape？"></a>为什么选择 Tape？</h2><p>Mocha does way too much and gives developers way too many assertion choices, and that leads to <a target="_blank" rel="noopener" href="http://en.wikipedia.org/wiki/Analysis_paralysis">analysis paralysis</a> and lost productivity. Every time I have seen Mocha used on a project, I’ve seen developers dump way too much time in the testing framework and testing environment.</p>
+<p>Mocha 给了开发者太多的断言库选择，这导致<a target="_blank" rel="noopener" href="http://en.wikipedia.org/wiki/Analysis_paralysis">分析瘫痪</a>和降低了生产效率。每当 Mocha 在项目中使用时，我都看到开发人员搭建在测试框架和测试环境过程中浪费了太多时间。</p>
+<p>While I’m ranting I would be remiss if I didn’t mention that if you spend a lot of time on mocks and stubs, that’s a strong code-smell. You can probably dramatically simplify both your tests and your application by breaking your app into more modular chunks.</p>
+<p>我很想告诉你，如果您在 mocks 和 stubs 上花费大量时间，那说明你跑偏了，这是一种很糟糕的事情。因为往往将应用程序划分为更多的模块，您就能过极大地简化测试和应用程序。</p>
+<h2 id="Mocking-is-a-code-smell"><a href="#Mocking-is-a-code-smell" class="headerlink" title="Mocking is a code smell."></a>Mocking is a code smell.</h2><h2 id="过重的-Mock-是一中糟糕的编码习惯"><a href="#过重的-Mock-是一中糟糕的编码习惯" class="headerlink" title="过重的 Mock 是一中糟糕的编码习惯"></a>过重的 Mock 是一中糟糕的编码习惯</h2><p>A few simple mocks here and there are OK. Some of your app will inevitably involve side-effects (reading from or writing to the network or filesystem, for instance). When you do have a genuine need for mocks, keep them simple. Little more than basic stubs are ideal. But on many projects, I’ve seen a lot of over-complicated mocks that never needed to exist in the first place. Why maintain more code than you need to?<br>The more you break your problems down into simple, pure functions, the easier it will be to test your code without mocks.<br>一些简单的 Mocking 可以接受。部分情况下，您的某些应用程序不可避免地会被带入副作用（例如，从网络或文件系统读取或写入网络或文件系统）。当您确实需要 Mock 时，请尽量使其简单。采用更多基础 stubs 是不错的主意。但是在许多项目中，我看到了很多过于复杂的 Mock，这些 Mock 从一开始就不需要存在。为什么要维护比您所需更多的代码？<br>将问题分解成简单的<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Pure_function">纯</a> <a target="_blank" rel="noopener" href="https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4">函数</a>的次数越多，_无需 Mock 就可以测试代码_。</p>
+<h2 id="Testing-is-not-what-you-should-spend-most-of-your-time-doing"><a href="#Testing-is-not-what-you-should-spend-most-of-your-time-doing" class="headerlink" title="Testing is not what you should spend most of your time doing."></a>Testing is not what you should spend most of your time doing.</h2><h2 id="你不应该投入大量时间去编写测试用例"><a href="#你不应该投入大量时间去编写测试用例" class="headerlink" title="你不应该投入大量时间去编写测试用例"></a>你不应该投入大量时间去编写测试用例</h2><p>You should spend most of your time thinking about how to create the best, most flexible, most performant solutions given the afforded time constraints. Time is value in the software development world, and you shouldn’t waste one minute of it.</p>
+<p>在有限时间的开发周期内下，您应将大部分时间都花在如何创建更好，更灵活，更高性能的解决方案上。在软件开发世界中，时间很重要，您不应该浪费时间。</p>
+<p>If you get your kicks burning money, use Mocha, Jasmine, Jest, etc… But if you value your time, keep reading.</p>
+<p>如果并无所谓，可以使用 Mocha，Jasmine，Jest 等。但是，如果您珍惜你的时间，请继续阅读。</p>
+<p>With many BDD assertion libraries, there are getters with side effects. At one company I worked for (not naming names), that buried a bug in one of our tests, and we spent far too long debugging the test case rather than developing actual application code.</p>
+<p>在许多 BDD 断言库中，他们都有些带有副作用的 getters。在我工作的一家公司（没有命名），这在我们的一个测试中掩埋了一个错误，并且我们花了太多的时间调试测试用例，而不是开发实际的应用程序代码。</p>
+<h2 id="Test-assertions-should-be-dead-simple-amp-completely-free-of-magic"><a href="#Test-assertions-should-be-dead-simple-amp-completely-free-of-magic" class="headerlink" title="Test assertions should be dead simple,&amp; completely free of magic."></a>Test assertions should be dead simple,&amp; <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Magic_(programming)">completely free of magic</a>.</h2><h2 id="测试断言应该尽可能的简单，并且完全没有黑魔法（不带入除应有实现的实现）"><a href="#测试断言应该尽可能的简单，并且完全没有黑魔法（不带入除应有实现的实现）" class="headerlink" title="测试断言应该尽可能的简单，并且完全没有黑魔法（不带入除应有实现的实现）"></a>测试断言应该尽可能的简单，并且完全没有黑魔法（不带入除应有实现的实现）</h2><p><em><code>equal</code></em>, <em><code>deepEqual</code></em>, <em><code>pass</code></em> &amp; <em><code>fail</code></em> are my primary go-to assertions. If <em><code>equal</code></em> and <em><code>deepEqual</code></em> were the only assertions available anywhere, the testing world would probably be better off for it.</p>
+<p>Why? <em><code>equal</code></em> &amp; <em><code>deepEqual</code></em> provide quality information about expectations, and they lead to very concise test cases that are <strong>easy to read &amp; maintain.</strong></p>
+<p>When you write a bug report, you should always <em>provide a description,</em> explain <em>what you expected to see</em>, and explain <em>what you actually saw</em>.</p>
+<p>Test cases should be written in much the same way:</p>
+<ol>
+<li>Describe the feature that you’re testing in plain English.</li>
+<li>Provide the expected outcome of the test. This part is why many unit tests are called <em>expectations.</em></li>
+<li>Compare that to the <em>actual value.</em></li>
+</ol>
+<p>When a unit tests fails, <em>the error message is your bug report.</em></p>
+<p><em><code>equal</code></em>, <em><code>deepEqual</code></em>, <em><code>pass</code></em> &amp; <em><code>fail</code></em> 是我常用的断言。如果*<code>equal</code>* and <em><code>deepEqual</code></em> 是唯一可用的断言，那么测试可读性会变得更好。</p>
+<p>为什么？_<code>equal</code>_ &amp; <em><code>deepEqual</code></em> 提供有关期望的质量信息，它们测试用例使非常简洁，<strong>易于阅读和维护。</strong></p>
+<p>编写错误报告时，应始终<em>提供说明，</em>解释<em>您期望看到的内容</em>，并解释<em>您实际看到的内容</em>。</p>
+<p>测试用例的编写方式一般参见如下：</p>
+<ol>
+<li>用简单的英语描述您要测试的功能。</li>
+<li>提供测试的预期结果。这就是为什么许多单元测试称为<em>期望的原因。</em></li>
+<li>将其与<em>实际值</em>进行比较<em>。</em></li>
+</ol>
+<p>当单元测试失败时，<em>错误消息就是您的错误报告。</em></p>
+<h2 id="Your-test-descriptions-should-be-clear-enough-to-use-as-documentation"><a href="#Your-test-descriptions-should-be-clear-enough-to-use-as-documentation" class="headerlink" title="Your test descriptions should be clear enough to use as documentation."></a>Your test descriptions should be clear enough to use as documentation.</h2><h2 id="您的测试描述应足够清晰，以至可以当作文档阅读。"><a href="#您的测试描述应足够清晰，以至可以当作文档阅读。" class="headerlink" title="您的测试描述应足够清晰，以至可以当作文档阅读。"></a>您的测试描述应足够清晰，以至可以当作文档阅读。</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> test <span class="keyword">from</span> <span class="string">&#x27;tape&#x27;</span></span><br><span class="line"></span><br><span class="line">test(<span class="string">&#x27;A passing test&#x27;</span>, <span class="function">(<span class="params">assert</span>) =&gt;</span> &#123;</span><br><span class="line">    assert.pass(<span class="string">&#x27;This test will pass.&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    assert.end()</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">test(<span class="string">&#x27;Assertions with tape.&#x27;</span>, <span class="function">(<span class="params">assert</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">const</span> expected = <span class="string">&#x27;something to test&#x27;</span></span><br><span class="line">    <span class="keyword">const</span> actual = <span class="string">&#x27;sonething to test&#x27;</span></span><br><span class="line"></span><br><span class="line">    assert.equal(</span><br><span class="line">        actual,</span><br><span class="line">        expected,</span><br><span class="line">        <span class="string">&#x27;Given two mismatched values, .equal() should produce a nice bug report&#x27;</span></span><br><span class="line">    )</span><br><span class="line"></span><br><span class="line">    assert.end()</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<p>If you write tests this way, your test error messages should be clear enough to use as bug reports:</p>
+<p>如果你这么写测试用例，则你的测试错误信息将会足够清楚，甚至用来当作 bug 报告来看。</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">TAP version 13</span><br><span class="line"><span class="meta">#</span><span class="bash"> A passing <span class="built_in">test</span></span></span><br><span class="line">ok 1 This test will pass.</span><br><span class="line"><span class="meta">#</span><span class="bash"> Assertions with tape.</span></span><br><span class="line">not ok 2 Given two mismatched values, .equal() should produce a nice bug report</span><br><span class="line">  ---</span><br><span class="line">    operator: equal</span><br><span class="line">    expected: &#x27;something to test&#x27;</span><br><span class="line">    actual:   &#x27;sonething to test&#x27;</span><br><span class="line">  ...1..2</span><br><span class="line"><span class="meta">#</span><span class="bash"> tests 2</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> pass 1</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> fail 1</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="Your-automated-test-error-messages-are-your-bug-reports"><a href="#Your-automated-test-error-messages-are-your-bug-reports" class="headerlink" title="Your automated test error messages are your bug reports."></a>Your automated test error messages are your bug reports.</h2><h2 id="您的自动测试错误消息就是您的错误报告。"><a href="#您的自动测试错误消息就是您的错误报告。" class="headerlink" title="您的自动测试错误消息就是您的错误报告。"></a>您的自动测试错误消息就是您的错误报告。</h2><p>Simple tests assertions provide:</p>
+<ul>
+<li>  Better readability.</li>
+<li>  Less code.</li>
+<li>  Less maintenance.</li>
+</ul>
+<p>These features trump all the bells and whistles in the world.</p>
+</div><hr></div><div class="recent-post-item article-container"><a class="article-title" href="/2021/02/01/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%A6%82%E8%AE%BA/">操作系统概念</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2021-02-01</time><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/">操作系统</a><span class="article-meta__link">-</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/">计算机基础</a></span><div class="content"><h1 id="操作系统"><a href="#操作系统" class="headerlink" title="操作系统"></a>操作系统</h1><p>用户态</p>
+<p>内核态</p>
+<p>多路复用</p>
+<ul>
+<li>  时间复用</li>
+<li>  空间复用</li>
+</ul>
+<p>操作系统决定何时分配资源</p>
+<p>操作系统决定如何分配资源</p>
+<h2 id="计算机硬件"><a href="#计算机硬件" class="headerlink" title="计算机硬件"></a>计算机硬件</h2><h4 id="处理器"><a href="#处理器" class="headerlink" title="处理器"></a>处理器</h4><ul>
+<li>  寄存器</li>
+<li>  流水线：执行指令的机制</li>
+<li>  陷阱：将用户态转化为内核态，并将控制权交给操作系统</li>
+<li>  多线程不是真正的并行，而是一个时刻只有一个进程在运行，但是线程的切换时间减少到纳秒数量级</li>
+</ul>
+<h4 id="存储器"><a href="#存储器" class="headerlink" title="存储器"></a>存储器</h4><ul>
+<li>  寄存器</li>
+<li>  高速缓存</li>
+<li>  主存 RAM</li>
+<li>  磁盘</li>
+</ul>
+<h4 id="I-O"><a href="#I-O" class="headerlink" title="I/O"></a>I/O</h4><ul>
+<li>  中断</li>
+<li>  中断优先级</li>
+</ul>
+<h4 id="总线"><a href="#总线" class="headerlink" title="总线"></a>总线</h4><h2 id="操作系统概念"><a href="#操作系统概念" class="headerlink" title="操作系统概念"></a>操作系统概念</h2><h4 id="进程"><a href="#进程" class="headerlink" title="进程"></a>进程</h4><p>正在执行的一个程序</p>
+<ul>
+<li>  子进程</li>
+<li>  进程树</li>
+<li>  进程间通信</li>
+</ul>
+<h4 id="地址空间"><a href="#地址空间" class="headerlink" title="地址空间"></a>地址空间</h4><h4 id="文件系统"><a href="#文件系统" class="headerlink" title="文件系统"></a>文件系统</h4><ul>
+<li>  文件</li>
+<li>目录<ul>
+<li>  工作目录</li>
+<li>  根目录</li>
+</ul>
+</li>
+</ul>
+<h4 id="管道-pipe"><a href="#管道-pipe" class="headerlink" title="管道 pipe"></a>管道 pipe</h4><p>一种虚文件，链接两个进程</p>
+<h4 id="保护"><a href="#保护" class="headerlink" title="保护"></a>保护</h4><ul>
+<li>  9 位二进制保护码，所有者、同组者、其他人</li>
+<li>  rwx 位，读、写、执行</li>
+</ul>
+<h4 id="系统调用"><a href="#系统调用" class="headerlink" title="系统调用"></a>系统调用</h4><ul>
+<li>  POSIX 可移植操作系统接口</li>
+<li>  PID 进程标识符</li>
+<li>  fork 派生</li>
+</ul>
+<h2 id="操作系统结构"><a href="#操作系统结构" class="headerlink" title="操作系统结构"></a>操作系统结构</h2><p>六种典型设计模式</p>
+<ul>
+<li><p>  单体系统</p>
+</li>
+<li><p>  层次式系统</p>
+</li>
+<li><p>  微内核</p>
+</li>
+<li><p>  客户端-服务器模式</p>
+</li>
+<li><p>  虚拟机</p>
+</li>
+<li><p>  外核</p>
+</li>
+</ul>
+</div><hr></div><div class="recent-post-item article-container"><a class="article-title" href="/2021/02/01/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B/">进程与线程</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2021-02-01</time><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/">操作系统</a><span class="article-meta__link">-</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/">计算机基础</a></span><div class="content"><h2 id="进程"><a href="#进程" class="headerlink" title="进程"></a>进程</h2><h4 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h4><p>一个正在执行的程序实例对应一个进程</p>
 <h4 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h4><p>4 个主要事件会导致进程的创建</p>
 <ul>
 <li>  系统初始化</li>
@@ -434,358 +629,6 @@
 <p>后端路由</p>
 <p>优点：seo 优化好，不需要等待前端加载</p>
 <p>缺点：单独由后端维护，前端要修改模板需安装整套后端服务，前后端混杂，不易于分离</p>
-</div><hr></div><div class="recent-post-item article-container"><a class="article-title" href="/2019/03/20/%E5%88%9D%E5%85%A5%E5%89%8D%E7%AB%AF/DOM%E6%93%8D%E4%BD%9C/">DOM操作</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-03-20</time><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/%E8%B5%B7%E6%AD%A5/">起步</a></span><div class="content"><h2 id="节点查找-API"><a href="#节点查找-API" class="headerlink" title="节点查找 API"></a>节点查找 API</h2><blockquote>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">document</span>.getElementById ：根据ID查找元素，大小写敏感，如果有多个结果，只返回第一个；</span><br><span class="line"></span><br><span class="line"><span class="built_in">document</span>.getElementsByClassName ：根据类名查找元素，多个类名用空格分隔，返回一个 HTMLCollection 。注意兼容性为IE9+（含）。另外，不仅仅是<span class="built_in">document</span>，其它元素也支持 getElementsByClassName 方法；</span><br><span class="line"></span><br><span class="line"><span class="built_in">document</span>.getElementsByTagName ：根据标签查找元素， * 表示查询所有标签，返回一个 HTMLCollection 。</span><br><span class="line"></span><br><span class="line"><span class="built_in">document</span>.getElementsByName ：根据元素的name属性查找，返回一个 NodeList 。</span><br><span class="line"></span><br><span class="line"><span class="built_in">document</span>.querySelector ：返回单个Node，IE8+(含），如果匹配到多个结果，只返回第一个。</span><br><span class="line"></span><br><span class="line"><span class="built_in">document</span>.querySelectorAll ：返回一个 NodeList ，IE8+(含）。</span><br><span class="line"></span><br><span class="line"><span class="built_in">document</span>.forms ：获取当前页面所有form，返回一个 HTMLCollection ；</span><br></pre></td></tr></table></figure>
-</blockquote>
-<h2 id="节点创建-API"><a href="#节点创建-API" class="headerlink" title="节点创建 API"></a>节点创建 API</h2><h3 id="createElement-创建元素："><a href="#createElement-创建元素：" class="headerlink" title="createElement 创建元素："></a>createElement 创建元素：</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">var elem = document.createElement(&quot;div&quot;);</span><br><span class="line">elem.id = &#x27;haorooms&#x27;;</span><br><span class="line">elem.style = &#x27;color: red&#x27;;</span><br><span class="line">elem.innerHTML = &#x27;我是新创建的haorooms测试节点&#x27;;</span><br><span class="line">document.body.appendChild(elem);</span><br></pre></td></tr></table></figure>
-
-<p>通过 createElement 创建的元素并不属于 document 对象，它只是创建出来，并未添加到 html 文档中，要调用 appendChild 或 insertBefore 等方法将其添加到 HTML 文档中。</p>
-<h3 id="createTextNode-创建文本节点："><a href="#createTextNode-创建文本节点：" class="headerlink" title="createTextNode 创建文本节点："></a>createTextNode 创建文本节点：</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">var node = document.createTextNode(&quot;我是文本节点&quot;);</span><br><span class="line">document.body.appendChild(node);</span><br></pre></td></tr></table></figure>
-
-<h3 id="cloneNode-克隆一个节点："><a href="#cloneNode-克隆一个节点：" class="headerlink" title="cloneNode 克隆一个节点："></a>cloneNode 克隆一个节点：</h3><p>node.cloneNode(true/false) ，它接收一个 bool 参数，用来表示是否复制子元素。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">var from = document.getElementById(&quot;test&quot;);</span><br><span class="line">var clone = from.cloneNode(true);</span><br><span class="line">clone.id = &quot;test2&quot;;</span><br><span class="line">document.body.appendChild(clone);</span><br></pre></td></tr></table></figure>
-
-<p>克隆节点并不会克隆事件，除非事件是用</p>
-<p>这种方式绑定的，用 addEventListener 和 node.onclick=xxx; 方式绑定的都不会复制。</p>
-<h3 id="createDocumentFragment"><a href="#createDocumentFragment" class="headerlink" title="createDocumentFragment"></a>createDocumentFragment</h3><p>本方法用来创建一个 DocumentFragment ，也就是文档碎片，它表示一种轻量级的文档，主要是用来存储临时节点，大量操作 DOM 时用它可以大大提升性能。</p>
-<h2 id="节点修改-API"><a href="#节点修改-API" class="headerlink" title="节点修改 API"></a>节点修改 API</h2><p><strong>1、appendChild</strong></p>
-<p>语法：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">parent.appendChild(child);</span><br></pre></td></tr></table></figure>
-
-<p><strong>2、insertBefore</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">parentNode.insertBefore(newNode, refNode);</span><br></pre></td></tr></table></figure>
-
-<p><strong>3、insertAdjacentHTML</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//js谷歌浏览器，火狐浏览器，IE8+</span><br><span class="line">el.insertAdjacentHTML(&#x27;beforebegin&#x27;, htmlString);</span><br></pre></td></tr></table></figure>
-
-<p>关于 insertAdjacentHTML，这个 API 比较好用，具体可以看：<a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML">https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML</a></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- beforebegin --&gt;</span><br><span class="line">&lt;p&gt;</span><br><span class="line">  &lt;!-- afterbegin --&gt;</span><br><span class="line">  foo</span><br><span class="line">  &lt;!-- beforeend --&gt;</span><br><span class="line">&lt;/p&gt;</span><br><span class="line">&lt;!-- afterend --&gt;</span><br></pre></td></tr></table></figure>
-
-<p><strong>4、Element.insertAdjacentElement()</strong></p>
-<p>用法和上面类似，</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">targetElement.insertAdjacentElement(position, element);</span><br></pre></td></tr></table></figure>
-
-<p><strong>5、removeChild</strong></p>
-<p>removeChild 用于删除指定的子节点并返回子节点，语法：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">var deletedChild = parent.removeChild(node);</span><br></pre></td></tr></table></figure>
-
-<p>deletedChild 指向被删除节点的引用，它仍然存在于内存中，可以对其进行下一步操作。另外，如果被删除的节点不是其子节点，则将会报错。一般删除节点都是这么删的：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">function removeNode(node)</span><br><span class="line">&#123;</span><br><span class="line">    if(!node) return;</span><br><span class="line">    if(node.parentNode) node.parentNode.removeChild(node);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>6、replaceChild</strong></p>
-<p>replaceChild 用于将一个节点替换另一个节点，语法：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">parent.replaceChild(newChild, oldChild);</span><br></pre></td></tr></table></figure>
-
-<h2 id="节点关系-API"><a href="#节点关系-API" class="headerlink" title="节点关系 API"></a>节点关系 API</h2><p><strong>1、父关系 API</strong></p>
-<blockquote>
-<p>parentNode ：每个节点都有一个 parentNode 属性，它表示元素的父节点。Element 的父节点可能是 Element，Document 或 DocumentFragment；</p>
-<p>parentElement ：返回元素的父元素节点，与 parentNode 的区别在于，其父节点必须是一个 Element 元素，如果不是，则返回 null；</p>
-</blockquote>
-<p><strong>2、子关系 API</strong></p>
-<blockquote>
-<p>children ：返回一个实时的 HTMLCollection ，子节点都是 Element，IE9 以下浏览器不支持；</p>
-<p>childNodes ：返回一个实时的 NodeList ，表示元素的子节点列表，注意子节点可能包含文本节点、注释节点等；</p>
-<p>firstChild ：返回第一个子节点，不存在返回 null，与之相对应的还有一个 firstElementChild ；</p>
-<p>lastChild ：返回最后一个子节点，不存在返回 null，与之相对应的还有一个 lastElementChild ；</p>
-</blockquote>
-<p><strong>3、兄弟关系型 API</strong></p>
-<blockquote>
-<p>previousSibling ：节点的前一个节点，如果不存在则返回 null。注意有可能拿到的节点是文本节点或注释节点，与预期的不符，要进行处理一下。</p>
-<p>nextSibling ：节点的后一个节点，如果不存在则返回 null。注意有可能拿到的节点是文本节点，与预期的不符，要进行处理一下。</p>
-<p>previousElementSibling ：返回前一个元素节点，前一个节点必须是 Element，注意 IE9 以下浏览器不支持。</p>
-<p>nextElementSibling ：返回后一个元素节点，后一个节点必须是 Element，注意 IE9 以下浏览器不支持。</p>
-</blockquote>
-<h2 id="元素属性型-API"><a href="#元素属性型-API" class="headerlink" title="元素属性型 API"></a>元素属性型 API</h2><p><strong>1、setAttribute 给元素设置属性：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">element.setAttribute(name, value);</span><br></pre></td></tr></table></figure>
-
-<p>其中 name 是特性名，value 是特性值。如果元素不包含该特性，则会创建该特性并赋值。</p>
-<p><strong>2、getAttribute</strong></p>
-<p>getAttribute 返回指定的特性名相应的特性值，如果不存在，则返回 null：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">var value = element.getAttribute(&quot;id&quot;);</span><br></pre></td></tr></table></figure>
-
-<p><strong>3、hasAttribute</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">var result = element.hasAttribute(name);</span><br><span class="line"></span><br><span class="line">var foo = document.getElementById(&quot;foo&quot;);</span><br><span class="line">if (foo.hasAttribute(&quot;bar&quot;)) &#123;</span><br><span class="line">    // do something</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>4、dataset</strong></p>
-<p>获取 html data-开头的属性，用法如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">&lt;div id=&quot;user&quot; data-id=&quot;1234567890&quot; data-user=&quot;johndoe&quot; data-date-of-birth&gt;John Doe&lt;/div&gt;</span><br><span class="line"></span><br><span class="line">let el = document.querySelector(&#x27;#user&#x27;);</span><br><span class="line"></span><br><span class="line">// el.id == &#x27;user&#x27;</span><br><span class="line">// el.dataset.id === &#x27;1234567890&#x27;</span><br><span class="line">// el.dataset.user === &#x27;johndoe&#x27;</span><br><span class="line">// el.dataset.dateOfBirth === &#x27;&#x27;</span><br><span class="line"></span><br><span class="line">el.dataset.dateOfBirth = &#x27;1960-10-03&#x27;; // set the DOB.</span><br><span class="line"></span><br><span class="line">// &#x27;someDataAttr&#x27; in el.dataset === false</span><br><span class="line">el.dataset.someDataAttr = &#x27;mydata&#x27;;</span><br><span class="line">// &#x27;someDataAttr&#x27; in el.dataset === true</span><br></pre></td></tr></table></figure>
-
-<h2 id="样式相关-API"><a href="#样式相关-API" class="headerlink" title="样式相关 API"></a>样式相关 API</h2><p><strong>1、直接修改元素的样式</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">elem.style.color = &#x27;red&#x27;;</span><br><span class="line">elem.style.setProperty(&#x27;font-size&#x27;, &#x27;16px&#x27;);</span><br><span class="line">elem.style.removeProperty(&#x27;color&#x27;);</span><br></pre></td></tr></table></figure>
-
-<p><strong>2、动态添加样式规则</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var style = document.createElement(&#x27;style&#x27;);</span><br><span class="line">style.innerHTML = &#x27;body&#123;color:red&#125; #top:hover&#123;background-color: red;color: white;&#125;&#x27;;</span><br><span class="line">document.head.appendChild(style);</span><br></pre></td></tr></table></figure>
-
-<p><strong>3、classList 获取样式 class</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">// div is an object reference to a &lt;div&gt; element with class=&quot;foo bar&quot;</span><br><span class="line">div.classList.remove(&quot;foo&quot;);</span><br><span class="line">div.classList.add(&quot;anotherclass&quot;);</span><br><span class="line"></span><br><span class="line">// if visible is set remove it, otherwise add it</span><br><span class="line">div.classList.toggle(&quot;visible&quot;);</span><br><span class="line"></span><br><span class="line">// add/remove visible, depending on test conditional, i less than 10</span><br><span class="line">div.classList.toggle(&quot;visible&quot;, i &lt; 10 );</span><br><span class="line"></span><br><span class="line">alert(div.classList.contains(&quot;foo&quot;));</span><br><span class="line"></span><br><span class="line">// add or remove multiple classes</span><br><span class="line">div.classList.add(&quot;foo&quot;, &quot;bar&quot;, &quot;baz&quot;);</span><br><span class="line">div.classList.remove(&quot;foo&quot;, &quot;bar&quot;, &quot;baz&quot;);</span><br><span class="line"></span><br><span class="line">// add or remove multiple classes using spread syntax</span><br><span class="line">let cls = [&quot;foo&quot;, &quot;bar&quot;];</span><br><span class="line">div.classList.add(...cls);</span><br><span class="line">div.classList.remove(...cls);</span><br><span class="line"></span><br><span class="line">// replace class &quot;foo&quot; with class &quot;bar&quot;</span><br><span class="line">div.classList.replace(&quot;foo&quot;, &quot;bar&quot;);</span><br></pre></td></tr></table></figure>
-
-<p><strong>4、window.getComputedStyle</strong></p>
-<p>通过 element.sytle.xxx 只能获取到内联样式，借助 window.getComputedStyle 可以获取应用到元素上的所有样式，IE8 或更低版本不支持此方法。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">var style = window.getComputedStyle(element[, pseudoElt]);</span><br></pre></td></tr></table></figure>
-
-<h2 id="获取相关高度-API"><a href="#获取相关高度-API" class="headerlink" title="获取相关高度 API"></a>获取相关高度 API</h2><p>这里主要讲一下：</p>
-<h3 id="getBoundingClientRect"><a href="#getBoundingClientRect" class="headerlink" title="getBoundingClientRect"></a>getBoundingClientRect</h3><p>getBoundingClientRect 用来返回元素的大小以及相对于浏览器可视窗口的位置，用法如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">var clientRect = element.getBoundingClientRect();</span><br></pre></td></tr></table></figure>
-
-<p>clientRect 是一个 DOMRect 对象，包含 width、height、left、top、right、bottom，它是相对于窗口顶部而不是文档顶部，滚动页面时它们的值是会发生变化的。</p>
-</div><hr></div><div class="recent-post-item article-container"><a class="article-title" href="/2019/03/20/%E5%88%9D%E5%85%A5%E5%89%8D%E7%AB%AF/es6%E8%AE%B0%E5%BF%86%E6%89%8B%E5%86%8C/">es6记忆手册</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-03-20</time><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/%E8%B5%B7%E6%AD%A5/">起步</a></span><div class="content"><h3 id="ES6-新特性一览"><a href="#ES6-新特性一览" class="headerlink" title="ES6 新特性一览"></a>ES6 新特性一览</h3><ul>
-<li>  <code>let</code>和<code>const</code></li>
-<li>  暂时性死区</li>
-<li>  解构赋值</li>
-<li>  字符串的<code>unicode</code>表示</li>
-<li>  模板字符串</li>
-<li>  对象简写属性</li>
-<li>  函数的默认参数</li>
-<li>  函数的剩余参数（rest 参数）</li>
-<li>  spread 操作符</li>
-<li>  箭头函数</li>
-<li>  尾调用优化</li>
-<li>  遍历器</li>
-<li>  for…of…</li>
-<li>  Symbol</li>
-<li>  Map 和 Set</li>
-<li>  class</li>
-<li>  Promise</li>
-<li>  Generator</li>
-<li>  async await</li>
-<li>  Proxy 和 Reflect</li>
-<li>  二进制数组</li>
-<li>  模块</li>
-<li>  Math、Number、String、Object、RegExp 扩展</li>
-</ul>
-<h3 id="let-和-const-的异同"><a href="#let-和-const-的异同" class="headerlink" title="let 和 const 的异同"></a>let 和 const 的异同</h3><p><strong>相同点</strong></p>
-<ul>
-<li>  <code>let</code>和<code>const</code>声明的变量，都是块级作用域，都只在其所在的<code>代码块</code>内有效</li>
-<li>  <code>let</code>和<code>const</code>声明的变量，都不存在变量提升</li>
-<li>  <code>let</code>和<code>const</code>声明的变量，都存在临时性死区</li>
-<li>  <code>let</code>和<code>const</code>都不允许在通过一个作用于内重复声明同一个变量</li>
-<li>  <code>let</code>和<code>const</code>都不允许在函数内对参数重新声明</li>
-<li>  <code>let</code>和<code>const</code>声明的变量，都不是顶层对象的属性</li>
-</ul>
-<p><strong>不同点</strong></p>
-<ul>
-<li>  <code>let</code>声明的是变量，声明后，可以在任意时刻赋值，修改</li>
-<li>  <code>const</code>声明的是常量，声明后必须立刻赋值，且以后不允许修改</li>
-</ul>
-<h3 id="let-和-var-的异同"><a href="#let-和-var-的异同" class="headerlink" title="let 和 var 的异同"></a>let 和 var 的异同</h3><p><strong>相同点</strong></p>
-<ul>
-<li>  <code>let</code>和<code>var</code>都是声明一个变量</li>
-<li>  <code>let</code>和<code>var</code>声明的变量，都是可以在声明后，任意时刻赋值，修改</li>
-</ul>
-<p><strong>不同点</strong></p>
-<ul>
-<li>  <code>let</code>无变量提升，<code>var</code>有变量提升</li>
-<li>  <code>let</code>是块级作用域，<code>var</code>是函数级作用域</li>
-<li>  <code>let</code>不可在作用域内重复声明同一个变量，<code>var</code>可以在同一个作用域内声明同一个变量</li>
-<li>  <code>let</code>声明的变量不属于顶层对象的属性，<code>var</code>声明的变量属于顶层对象的属性</li>
-<li>  <code>let</code>存在临时性死区，<code>var</code>不存在临时性死区</li>
-</ul>
-<p><strong>其他</strong></p>
-<ol>
-<li>在同作用域内，不能同时使用<code>let</code>和<code>var</code>声明同名变量，不管谁先谁后都不行</li>
-</ol>
-<h3 id="const-的实质"><a href="#const-的实质" class="headerlink" title="const 的实质"></a>const 的实质</h3><p><code>const</code>实际保证的，并不是变量的值不能改动，而是变量指向的那个<code>内存地址</code>所所保存的数据不能改变。</p>
-<p>JavaScript 中的简单类型数据，比如<code>string</code>, <code>number</code>, <code>boolean</code>, <code>null</code>, <code>undefined</code>,值就保存在变量指向的那个内存地址，而复合类型的数据，变量指向的那个内存地址，保存的是指向实际数据的一个指针。</p>
-<h3 id="什么是临时性死区"><a href="#什么是临时性死区" class="headerlink" title="什么是临时性死区"></a>什么是临时性死区</h3><p>ES6 新概念：临时性死区——TDZ——Temporal Dead Zone</p>
-<p>由于代码（代码块，函数，模块……）中的变量还没有被初始化而不能使用的情况，具体表现为——报错：<code>Uncaught ReferenceError: xxx is not defined</code>，<code>let</code>,<code>const</code>,<code>class</code>都有临时性死区的表现。在 ES6 之前，如果在变量初始化之前使用变量，并不会报错，只是其值为<code>undefined</code>而已。</p>
-<h3 id="模板字符串"><a href="#模板字符串" class="headerlink" title="模板字符串"></a>模板字符串</h3><ol>
-<li>模板字符串简化了多行字符串的写法</li>
-<li>模板字符串简化了在字符串中签入变量的写法</li>
-<li>模板字符串中的变量如果没有声明的话，会报错</li>
-<li>模板字符串默认会将字符串转义</li>
-</ol>
-<h3 id="ES6-中的函数"><a href="#ES6-中的函数" class="headerlink" title="ES6 中的函数"></a>ES6 中的函数</h3><ol>
-<li>函数参数可以设置默认值</li>
-<li>函数参数的默认值是<code>惰性求值</code>的</li>
-<li>函数参数设置默认值后 build 影响函数的<code>length</code>属性：<code>function add(a, b, c=3)&#123;&#125; add.length === 2;// true</code></li>
-<li>在 ES6 中，如果函数参数使用了默认值、解构赋值、扩展运算符，就不能在函数内部显式指定为严格模式。函数指定默认值后，显式添加<code>use strict</code>,报错：<code>Uncaught SyntaxError: Illegal &#39;use strict&#39; directive in function with non-simple parameter list</code></li>
-<li><code>rest</code>参数只能是尾参数</li>
-<li><code>rest</code>参数不计入函数的<code>length</code>属性</li>
-<li><code>rest</code>参数是一个真正的数组，<code>arguments</code>是类数组</li>
-<li>在 ES6 中，<code>name</code>属性会返回实际的函数名</li>
-</ol>
-<h3 id="箭头函数"><a href="#箭头函数" class="headerlink" title="箭头函数"></a>箭头函数</h3><ol>
-<li>函数体内的<code>this</code>就是定义时的对象，而不是使用时的对象</li>
-<li>箭头函数不可以当做构造函数</li>
-<li>箭头函数内部不存在<code>arguments</code>对象，使用<code>...rest</code>参数代替</li>
-<li>箭头函数不可以做<code>Generator</code>函数</li>
-<li>箭头函数无法使用<code>apply</code>,<code>bind</code>,<code>call</code>改变<code>this</code>指向</li>
-</ol>
-<h3 id="解构赋值"><a href="#解构赋值" class="headerlink" title="解构赋值"></a>解构赋值</h3><p>可解构赋值的：</p>
-<ul>
-<li>  数组</li>
-<li>  Set</li>
-<li>  字符串</li>
-<li>  对象</li>
-<li>  函数参数</li>
-</ul>
-<ol>
-<li>数组解构赋值：</li>
-</ol>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">// a === 12</span><br><span class="line">// b === 33</span><br><span class="line">const [a, b] = [12, 33];</span><br></pre></td></tr></table></figure>
-
-<ol>
-<li>数组解构默认值：</li>
-</ol>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">// f === 120</span><br><span class="line">// h === 56</span><br><span class="line">const [f, h = 100] = [120, 56];</span><br></pre></td></tr></table></figure>
-
-<ol>
-<li>数组解构默认值：</li>
-</ol>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">// f === 120</span><br><span class="line">// h === 100</span><br><span class="line">const [f, h = 100] = [120, undefined];</span><br></pre></td></tr></table></figure>
-
-<ol>
-<li>对象解构赋值：</li>
-</ol>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">// a === &#x27;Pelli&#x27;</span><br><span class="line">// b === 89</span><br><span class="line">const &#123;a, b&#125; = &#123;a: &#x27;Pelli&#x27;, b: 89&#125;;</span><br></pre></td></tr></table></figure>
-
-<ol>
-<li>对象解构赋值：</li>
-</ol>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">// a === &#x27;pelli</span><br><span class="line">// b === 18</span><br><span class="line">// c === &#x27;worker&#x27;</span><br><span class="line">const &#123;</span><br><span class="line">    myname: a,</span><br><span class="line">    age: b,</span><br><span class="line">    job: c</span><br><span class="line">&#125; = &#123;</span><br><span class="line">    myname: &#x27;pelli&#x27;,</span><br><span class="line">    age: 18,</span><br><span class="line">    job: &#x27;worker&#x27;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-<ol>
-<li>对象解构默认值：</li>
-</ol>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">// p === &#x27;ppp&#x27;</span><br><span class="line">// q === &#x27;hello world&#x27;</span><br><span class="line">const &#123;p, q = &#x27;hello world&#x27;&#125; = &#123;p: &#x27;ppp&#x27;, q: &#x27;qqqq&#x27;&#125;;</span><br></pre></td></tr></table></figure>
-
-<ol>
-<li>解构赋值的默认值需 undefined 触发，<ul>
-<li>对于数组来说，对应位置没有元素</li>
-<li>对于对象来说，没有同名属性</li>
-<li>或者将同名属性或元素显式赋值为 undefined</li>
-</ul>
-</li>
-<li>字符串解构赋值：</li>
-</ol>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">// a === &#x27;h&#x27;</span><br><span class="line">// b === &#x27;e&#x27;</span><br><span class="line">// c === &#x27;l&#x27;</span><br><span class="line">const [a, b, c] = &#x27;hello world&#x27;;</span><br></pre></td></tr></table></figure>
-
-<ol>
-<li>函数参数的解构赋值</li>
-</ol>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">const args = function()&#123;return arguments;&#125;</span><br><span class="line">const ags = args(3, 4, 5, 6, 12, 2, 3);</span><br><span class="line">// a === 3</span><br><span class="line">// b === 4</span><br><span class="line">// c === 5</span><br><span class="line">// d === 6</span><br><span class="line">// e === 12</span><br><span class="line">// f = 2</span><br><span class="line">const [a, b, c, d, e, f] = ags;</span><br></pre></td></tr></table></figure>
-
-<ol>
-<li>解构赋值时，如果等号右边是数值和布尔值，则会先转为对象</li>
-</ol>
-<h3 id="解构赋值圆括号"><a href="#解构赋值圆括号" class="headerlink" title="解构赋值圆括号"></a>解构赋值圆括号</h3><blockquote>
-<p>最佳实践：任何时候都不要在解构赋值中放置圆括号</p>
-</blockquote>
-<p><strong>以下情况不能使用</strong></p>
-<ol>
-<li>变量声明语句</li>
-<li>函数参数</li>
-<li>赋值语句模式</li>
-</ol>
-<p><strong>只有一种情况可以使用圆括号</strong></p>
-<ol>
-<li>赋值语句的非<code>模式</code>部分</li>
-</ol>
-<h3 id="解构赋值使用场景"><a href="#解构赋值使用场景" class="headerlink" title="解构赋值使用场景"></a>解构赋值使用场景</h3><ol>
-<li>变量交换</li>
-<li>从函数返回多个值</li>
-<li>定义函数参数</li>
-<li>提取 json 数据</li>
-<li>定义函数参数默认值</li>
-<li>遍历 Map 结构</li>
-<li>输入模块指定方法</li>
-</ol>
-<h3 id="Symbol"><a href="#Symbol" class="headerlink" title="Symbol"></a>Symbol</h3><ol>
-<li><code>Symbol</code>不是构造函数，定义一个<code>Symbol</code>，前不用加<code>new</code>，正确使用方式为： <code>const s = Symbol()</code></li>
-<li><code>Symbol</code>值作为对象属性名时，只能使用<code>[]</code>方式访问，不能通过点运算符访问属性</li>
-<li><code>Symbol</code>是独一无二的值</li>
-</ol>
-<h3 id="Set-和-Map"><a href="#Set-和-Map" class="headerlink" title="Set 和 Map"></a>Set 和 Map</h3><ol>
-<li>Set 类似于数组，但是其中的值都是唯一的，不可重复</li>
-<li>Set 构造函数的参数必须是可遍历的：<code>arguments</code>,<code>string</code>,<code>array</code>,<code>set</code>,<code>map</code></li>
-<li>Set 构造函数的参数只有第一个有效（只需要一个参数）</li>
-<li>Set 的<code>add</code>方法返回的是<code>Set</code>对象，可以链式调用</li>
-<li>Map 的<code>set</code>方法，返回的是<code>Map</code>对象，可以链式调用</li>
-<li>Set 内部只能存在一个<code>NaN</code></li>
-<li><code>Object.is(0, -0); // false</code>，但是，Set 内部<code>0</code>和<code>-0</code>相等，只能存在一个.</li>
-<li>Set 内部：两个空对象，空数组，空函数总是不相等</li>
-<li>Map 数据结构是键值对的集合</li>
-<li>Map 数据结构的键不仅仅可以是字符串，任何数据类型都可以作为键</li>
-</ol>
-<h3 id="for…of…循环"><a href="#for…of…循环" class="headerlink" title="for…of…循环"></a>for…of…循环</h3><ul>
-<li>  arguments</li>
-<li>  数组</li>
-<li>  字符串</li>
-<li>  Set</li>
-<li>  Map</li>
-</ul>
-<h3 id="Promise-的特点"><a href="#Promise-的特点" class="headerlink" title="Promise 的特点"></a>Promise 的特点</h3><ol>
-<li>Promise 对象的状态不受外界影响</li>
-<li>Promise 对象的状态一旦确定就不会再改变</li>
-<li>Promise 对象的状态变化只可能是两个结果中的一个：接受或拒绝</li>
-</ol>
-<h3 id="Promise-的缺点"><a href="#Promise-的缺点" class="headerlink" title="Promise 的缺点"></a>Promise 的缺点</h3><ol>
-<li>Promise 对象一旦创建，就无法中途取消</li>
-<li>如果不设置回调函数，Promise 对象内部抛出的错误不会反映到外部</li>
-<li>当 Promise 对象处于<code>pending</code>时，无法得知目前的进展在哪一个阶段，换一种说法是无法确定事件的完成度</li>
-<li>代码冗余，相对于回调函数来说，语义弱化。不管什么操作都是一堆 then</li>
-</ol>
-<h3 id="Promise-对象和其他代码的执行顺序"><a href="#Promise-对象和其他代码的执行顺序" class="headerlink" title="Promise 对象和其他代码的执行顺序"></a>Promise 对象和其他代码的执行顺序</h3><ol>
-<li>立即执行的 Promise 比外层其他代码后执行</li>
-<li>立即执行的 Promise 比<code>setTimeout 0</code>先执行</li>
-</ol>
-<p><code>Promise</code>本身并不是异步的，<code>Promise</code>中的“异步”特性是由<code>resolve</code>或者<code>reject</code>的执行时机带来的</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">// 下面几行代码输出顺序为：3,2,1</span><br><span class="line">setTimeout(() =&gt; &#123;</span><br><span class="line">    console.log(&#x27;1&#x27;);</span><br><span class="line">&#125;, 0);</span><br><span class="line"></span><br><span class="line">var p = new Promise((resolve, reject) =&gt; &#123;</span><br><span class="line">    resolve(&#x27;2&#x27;)</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">p.then((val) =&gt; &#123;</span><br><span class="line">    console.log(val, &#x27;promise&#x27;);</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">console.log(&#x27;3&#x27;);</span><br></pre></td></tr></table></figure>
-
-<p>另外的几行代码：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">// 下面几行代码输出顺序为：3,1,2</span><br><span class="line">setTimeout(() =&gt; &#123;</span><br><span class="line">    console.log(&#x27;1&#x27;);</span><br><span class="line">&#125;, 0);</span><br><span class="line"></span><br><span class="line">var p = new Promise((resolve, reject) =&gt; &#123;</span><br><span class="line">    setTimeout(() =&gt; &#123;</span><br><span class="line">        resolve(&#x27;2&#x27;)</span><br><span class="line">    &#125;, 0);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">p.then((val) =&gt; &#123;</span><br><span class="line">    console.log(val, &#x27;promise&#x27;);</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">console.log(&#x27;3&#x27;);</span><br></pre></td></tr></table></figure>
-
-<h3 id="Promise-对象的写法最佳实践"><a href="#Promise-对象的写法最佳实践" class="headerlink" title="Promise 对象的写法最佳实践"></a>Promise 对象的写法最佳实践</h3><p>参考来源：<a target="_blank" rel="noopener" href="http://es6.ruanyifeng.com/#docs/promise">http://es6.ruanyifeng.com/#docs/promise</a></p>
-<p>理由是下面这种写法可以捕获前面 then 方法执行中的错误（也就是说，catch 不仅可以捕获到 promise 被拒绝的状态，也可以捕获前面 then 方法中的错误），也更接近同步的写法（try/catch）。因此，建议总是使用 catch 方法，而不使用 then 方法的第二个参数。</p>
-<p><code>p.then(function(val)&#123;&#125;).catch(function(msg)&#123;&#125;)</code>的写法</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">var p = new Promise(function(resolve, reject)&#123;</span><br><span class="line">    setTimeout(function()&#123;</span><br><span class="line">        var status = Math.random() * 10;</span><br><span class="line"></span><br><span class="line">        if(status &gt; 5)&#123;</span><br><span class="line">            resolve(status);</span><br><span class="line">        &#125;else&#123;</span><br><span class="line">            reject(&#x27;失败&#x27;);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;, 10000);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">p.then(function(value)&#123;</span><br><span class="line">    console.log(value);</span><br><span class="line">&#125;).catch(function(msg)&#123;</span><br><span class="line">    console.log(msg);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-<p>不推荐的写法如下：</p>
-<p><code>then</code>方法传递两个参数，第二参数是当被拒绝的时候执行的函数</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">var p = new Promise(function(resolve, reject)&#123;</span><br><span class="line">    setTimeout(function()&#123;</span><br><span class="line">        var status = Math.random() * 10;</span><br><span class="line"></span><br><span class="line">        if(status &gt; 5)&#123;</span><br><span class="line">            resolve(status);</span><br><span class="line">        &#125;else&#123;</span><br><span class="line">            reject(&#x27;失败&#x27;);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;, 10000);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">p.then(function(value)&#123;</span><br><span class="line">    console.log(value);</span><br><span class="line">&#125;, function(msg)&#123;</span><br><span class="line">    // 这里只有在promise被拒绝的时候才会执行</span><br><span class="line">    // 如果then方法报错了，这里无法获知</span><br><span class="line">    console.log(msg);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-<h3 id="Promise-的其他一些常识"><a href="#Promise-的其他一些常识" class="headerlink" title="Promise 的其他一些常识"></a>Promise 的其他一些常识</h3><ul>
-<li>  <code>Promise</code>不能直接做函数调用，即不能：<code>Promise()</code></li>
-</ul>
-<h3 id="class-的一些常识"><a href="#class-的一些常识" class="headerlink" title="class 的一些常识"></a>class 的一些常识</h3><ul>
-<li>  <code>class</code>可以看做是语法糖，只是让对象原型的写法更加清晰，更像面向对象的编程语言</li>
-<li>  类的数据类型是函数，类本身指向构造函数</li>
-<li>  类不能做函数直接调用，必须和<code>new</code>一起使用</li>
-<li>  类没有变量提升</li>
-<li>  类的所有方法都定义在<code>prototype</code>上面</li>
-<li>  类内部定义的所有属性都是不可枚举的</li>
-<li>  类的<code>length</code>属性值是<code>constructor</code>的参数个数（不包括有默认值的参数）</li>
-</ul>
-<h3 id="ES6-中的NaN"><a href="#ES6-中的NaN" class="headerlink" title="ES6 中的NaN"></a>ES6 中的<code>NaN</code></h3><ol>
-<li><code>Number</code>扩展，<code>Number.isNaN()</code></li>
-<li>在<code>ES6</code>中，<code>window</code>的方法<code>isNaN()</code>是为了保证向下兼容性，在<code>ES6</code>中，建议使用<code>Nunber.isNaN()</code></li>
-<li><code>Object.is()</code>中，<code>NaN</code>和<code>NaN</code>是相等的，<code>Object.is(NaN, NaN) === true</code></li>
-<li><code>Set</code>中，只允许存在一个<code>NaN</code></li>
-</ol>
-<h3 id="ES6-中的模块"><a href="#ES6-中的模块" class="headerlink" title="ES6 中的模块"></a>ES6 中的模块</h3><ul>
-<li>  模块相关名词：<code>CommonJS</code>、<code>AMD</code>、<code>CMD</code>、<code>UMD</code>,<code>ES6 Module</code></li>
-<li>  ES6 之前的模块规范：<code>CommonJS</code>和<code>AMD</code>,<code>CommonJS</code>用于服务器，<code>AMD</code>用于浏览器</li>
-<li>  ES6 的模块设计思想是尽量静态化，使得在<code>编译时</code>就能确定模块的依赖关系以及输入输出的变量</li>
-<li>  <code>CommonJS</code>和<code>AMD</code>模块，都只能在<code>运行时</code>确定这些东西，比如，<code>CommonJS</code>模块就是对象，输入时必须查找对象属性</li>
-<li>  ES6 模块是<code>编译时</code>加载，使得静态分析成为可能</li>
-<li>  ES6 模块自动采用严格模式，不管有没有显式声明<code>&quot;use strict;&quot;</code></li>
-<li>  在 ES6 模块中，顶层的<code>this</code>指向<code>undefined</code></li>
-<li>  如果 A 模块引入的模块 B 是基本类型，A 对 B 重新赋值的话会报错，如果 B 是引用类型，A 对其属性重新赋值， B 的属性值会改变，如果别的模块（比如 C 模块）也引用了 B 模块，则 A 对 B 的属性值修改也会体现在 C 模块中</li>
-<li>  最佳实践：不要对引入的模块进行修改</li>
-<li>  模块中的<code>import</code>有提升效果，会提升到整个模块之前。提升效果的实质是：<code>import</code>命令是<code>编译阶段</code>执行的，编译阶段总是在代码实际运行之前</li>
-<li>  由于<code>import</code>是静态执行的，不能使用表达式和变量，因为表达式和变量只有在运行时才能获取到结果</li>
-<li>  如果多次执行同一条<code>import</code>语句，则只会真正执行一次，不会执行多次</li>
-<li>  ES6 模块中的几个关键语句：<code>import &#39;react&#39;;</code>,<code>import &#123;lodash&#125; from &#39;lodash&#39;;</code>, , <code>import * from &#39;react&#39;</code>, <code>export var a = 12;</code>, <code>const a = 55; export default a;</code></li>
-<li>  正是因为<code>export default</code>实际上是输出一个名为<code>default</code>的变量，所以不能在<code>export default</code>后面加变量声明语句</li>
-<li>  ES6 模块无法动态加载、按条件加载、运行时加载。因为<code>import</code>语句是在编译时执行的，是静态的</li>
-</ul>
-<h3 id="CommonJS-和-ES6-模块的不同"><a href="#CommonJS-和-ES6-模块的不同" class="headerlink" title="CommonJS 和 ES6 模块的不同"></a>CommonJS 和 ES6 模块的不同</h3><ul>
-<li>  CommonJS 模块输出的是一个值的拷贝，ES6 模块输出的是值的引用。</li>
-<li>  CommonJS 模块是运行时加载，ES6 模块是编译时输出接口。</li>
-<li>  Node 环境中，ES6 模块之中，顶层的<code>this</code>指向<code>undefined</code>；<code>CommonJS</code> 模块的顶层<code>this</code>指向当前模块，这是两者的一个重大差异。</li>
-<li>  在 Node 环境中，以下几个变量在模块中是不存在的：<code>arguments</code>,<code>require</code>,<code>module</code>,<code>exports</code>,<code>__filename</code>,<code>__dirname</code></li>
-</ul>
-<h3 id="ES6-模块的运行机制"><a href="#ES6-模块的运行机制" class="headerlink" title="ES6 模块的运行机制"></a>ES6 模块的运行机制</h3><p>ES6 模块的运行机制与 CommonJS 不一样。JS 引擎对脚本静态分析的时候，遇到模块加载命令 import，就会生成一个只读引用。等到脚本真正执行时，再根据这个只读引用，到被加载的那个模块里面去取值。换句话说，ES6 的 import 有点像 Unix 系统的“符号连接”，原始值变了，import 加载的值也会跟着变。因此，ES6 模块是动态引用，并且不会缓存值，模块里面的变量绑定其所在的模块。</p>
 </div><hr></div><div class="recent-post-item article-container"><a class="article-title" href="/2019/03/20/%E5%88%9D%E5%85%A5%E5%89%8D%E7%AB%AF/2019.8.7sui/">2019.8.7sui</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-03-20</time><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/%E8%B5%B7%E6%AD%A5/">起步</a></span><div class="content"><p>今天想好好的认真开始维护自己的博客</p>
 <p>记于 2019.8.7 sui</p>
 <p>昨天晚上是我第一次面腾讯，其实当时投腾讯的时候就想着罢了罢了，反正啥也不会投着试试呗的心态，没想过腾讯居然会给我打面试电话。</p>
@@ -799,27 +642,6 @@
 <p>对 JS 的对象编程还不是特别熟悉，之前也是看过很多弄懂原型链啊、继承啊之类的文章，当时看的时候也写了一些小心得，但是这段时间在公司实习，过于专注于业务和工作流程的学习，发现自己对这些知识又有些疏生了</p>
 <p>今日随笔突然被突如其来的业务需求打断，思路全没了，就到这里吧</p>
 <p>T.T</p>
-</div><hr></div><div class="recent-post-item article-container"><a class="article-title" href="/2019/03/20/%E5%88%9D%E5%85%A5%E5%89%8D%E7%AB%AF/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E7%AC%94%E8%AE%B0/">性能优化笔记</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-03-20</time><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fa fa-tag article-meta__icon" aria-hidden="true"></i><a class="article-meta__tags" href="/tags/%E8%B5%B7%E6%AD%A5/">起步</a></span><div class="content"><h1 id="优化页面加载时间"><a href="#优化页面加载时间" class="headerlink" title="优化页面加载时间"></a>优化页面加载时间</h1><h2 id="html-标签顺序"><a href="#html-标签顺序" class="headerlink" title="html 标签顺序"></a>html 标签顺序</h2><p>应该把所有能移动的 script 标签移到 html</body>前，这样整个页面都会在各项脚本加载和解析之前进行渲染，从而提升了页面的可感知响应能力</p>
-<h2 id="JavaScript-代码-gizp-编码传输"><a href="#JavaScript-代码-gizp-编码传输" class="headerlink" title="JavaScript 代码 gizp 编码传输"></a>JavaScript 代码 gizp 编码传输</h2><p>在服务器设置 gzip 编码</p>
-<h2 id="缩编混淆和编译"><a href="#缩编混淆和编译" class="headerlink" title="缩编混淆和编译"></a>缩编混淆和编译</h2><p>JSMin 缩编</p>
-<p>UglifyJS 混淆</p>
-<p>Google closure compiler 代码编译</p>
-<p>避免全局变量的使用</p>
-<h2 id="异步加载-JavaScript-代码"><a href="#异步加载-JavaScript-代码" class="headerlink" title="异步加载 JavaScript 代码"></a>异步加载 JavaScript 代码</h2><p>JS 延时加载</p>
-<h1 id="减少-dom-操作"><a href="#减少-dom-操作" class="headerlink" title="减少 dom 操作"></a>减少 dom 操作</h1><h2 id="实现对页面元素的最小化访问"><a href="#实现对页面元素的最小化访问" class="headerlink" title="实现对页面元素的最小化访问"></a>实现对页面元素的最小化访问</h2><p>以变量保存对 dom 元素的引用以便后续使用</p>
-<p>通过对单独父元素的引用来访问其子 dom 元素</p>
-<p>对新建元素实施 dom 修改后才将其添加至当前实时页面</p>
-<h2 id="尽量利用已有元素"><a href="#尽量利用已有元素" class="headerlink" title="尽量利用已有元素"></a>尽量利用已有元素</h2><p>复制已经存在的元素以提高性能</p>
-<h2 id="尽量使用-css-而非-JavaScript-来操控页面样式"><a href="#尽量使用-css-而非-JavaScript-来操控页面样式" class="headerlink" title="尽量使用 css 而非 JavaScript 来操控页面样式"></a>尽量使用 css 而非 JavaScript 来操控页面样式</h2><p>因为修改元素的 style 属性会引发一次重排</p>
-<p>建议隐藏元素，再修改元素的 style 属性，减少重排</p>
-<h1 id="提升-dom-事件性能"><a href="#提升-dom-事件性能" class="headerlink" title="提升 dom 事件性能"></a>提升 dom 事件性能</h1><h2 id="使用事件委托"><a href="#使用事件委托" class="headerlink" title="使用事件委托"></a>使用事件委托</h2><h2 id="使用框架化处理频密发出的事件"><a href="#使用框架化处理频密发出的事件" class="headerlink" title="使用框架化处理频密发出的事件"></a>使用框架化处理频密发出的事件</h2><p>将计算密集型的代码移至单独的函数中，此函数按较长时间的计时器或时间间隔来执行代码，所使用的是保存在变量中的数据而不是直接取自于事件处理函数</p>
-<h1 id="提升函数性能"><a href="#提升函数性能" class="headerlink" title="提升函数性能"></a>提升函数性能</h1><p>使用记忆功能保存先前函数的返回结果</p>
-<p>使用正则表达式实现更快速的字符串操作</p>
-<h1 id="提高数组使用性能"><a href="#提高数组使用性能" class="headerlink" title="提高数组使用性能"></a>提高数组使用性能</h1><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> myArray = [] ;  <span class="comment">//快</span></span><br><span class="line"><span class="keyword">var</span> myArray = <span class="keyword">new</span> <span class="built_in">Array</span>();  <span class="comment">//慢</span></span><br></pre></td></tr></table></figure>
-
-<p><strong>循环</strong>，for 是最快的</p>
-<p>避免在循环中创建函数</p>
-<p>转移密集型任务到 web worker</p>
 </div><hr></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/page/2/"><i class="fa fa-chevron-left"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/4/"><i class="fa fa-chevron-right"></i></a></div></nav></div></div><footer><div class="layout" id="footer"><div class="copyright">&copy;2019 - 2021 By liuarui</div><div class="framework-info"><span>Driven - </span><a target="_blank" rel="noopener" href="http://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>Theme - </span><a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/hexo-theme-melody"><span>Melody</span></a></div><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_site_uv"><i class="fa fa-user"></i><span id="busuanzi_value_site_uv"></span><span></span></span><span class="footer-separator">|</span><span id="busuanzi_container_site_pv"><i class="fa fa-eye"></i><span id="busuanzi_value_site_pv"></span><span></span></span></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@latest/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-ui-pack@latest/velocity.ui.min.js"></script><script src="/js/utils.js?version=1.9.0"></script><script src="/js/fancybox.js?version=1.9.0"></script><script src="/js/sidebar.js?version=1.9.0"></script><script src="/js/copy.js?version=1.9.0"></script><script src="/js/fireworks.js?version=1.9.0"></script><script src="/js/transition.js?version=1.9.0"></script><script src="/js/scroll.js?version=1.9.0"></script><script src="/js/head.js?version=1.9.0"></script><script id="ribbon" src="/js/third-party/canvas-ribbon.js" size="150" alpha="0.6" zIndex="-1" data-click="false"></script><script>if(/Android|webOS|iPhone|iPod|iPad|BlackBerry/i.test(navigator.userAgent)) {
   $('#nav').addClass('is-mobile')
   $('footer').addClass('is-mobile')
